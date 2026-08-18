@@ -4,7 +4,7 @@ public class App {
        Connection con = DriverManager.getConnection(
         "jdbc:mysql://localhost:3306/java",
         "root",
-        "NewPassword123"
+        "My_Password"
        );
        PreparedStatement ps = con.prepareStatement(
         "insert into student values(?,?,?)"
