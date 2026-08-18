@@ -7,7 +7,7 @@ public class DBConnectionStudent {
 
         String url = "jdbc:mysql://localhost:3306/java";
         String username = "root";
-        String password = "NewPassword123";
+        String password = "My_Password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
